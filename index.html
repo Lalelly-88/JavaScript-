@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Galería de Arte</h1>
+    </header>
+    <main>
+        <div id="mensajehola"></div>
+        <div id="usuario" style="display:none;">
+            <h2>Ingrese sus datos</h2>
+            <form id="user-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" required><br><br>
+                <label for="dob">Fecha de nacimiento:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="assets/1140-paintings-celebrate-love-manet-garden-pere-lathuille-esp.jpg" alt="Pareja en el Pére Lathuille Édouard Manet">
+                <div class="caption">Pareja en el Pére Lathuille - Édouard Manet</div>
+                <img src="assets/16474289161127.webp" alt="El nacimiento de Venus, de Sandro Botticelli">
+                <div class="caption">El nacimiento de Venus - Sandro Botticelli</div>
+                <img src="assets/16474289229885.webp" alt="La joven de la perla, de Johannes Vermeer">
+                <div class="caption">La joven de la perla - Johannes Vermeer</div>
+                <img src="assets/68699.webp" alt="La Gioconda, de Leonardo Da Vinci">
+                <div class="caption">La Gioconda - Leonardo Da Vinci</div>
+                <img src="assets/69052.webp" alt="La noche estrellada, de Vincent Van Gogh">
+                <div class="caption">La noche estrellada - Vincent Van Gogh</div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/Creación_de_Adán.jpg" alt="La Capilla Sixtina, Miguel Ángel">
+                <div class="caption">La Capilla Sixtina - Miguel Ángel</div>
+                <img src="assets/hotbook-94.webp" alt="La persistencia de la memoria, de Salvador Dalí">
+                <div class="caption">La persistencia de la memoria - Salvador Dalí</div>
+                <img src="assets/la-gran-ola-de-kanagawa-katsushika-hokusai-1830-1833_84e24115_230609112211_1280x794.jpg" alt="La gran ola de Kanagawa, Katsushika Hokusai">
+                <div class="caption">La gran ola de Kanagawa - Katsushika Hokusai</div>
+                <img src="assets/one-of-several-versions-of-the-painting-the-scream-by-the-news-photo-1652351980.jpg" alt="El grito, Edvard Munch">
+                <div class="caption">El grito - Edvard Munch</div>
+                <img src="assets/Saturno-devorando-a-su-hijo-de-Goya-por-Adrián-Domínguez-Trujillo-scaled.webp" alt="Saturno devorando a su hijo, Francisco de Goya">
+                <div class="caption">Saturno devorando a su hijo - Francisco de Goya</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desarrollo y Diseño Web - 2024</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
